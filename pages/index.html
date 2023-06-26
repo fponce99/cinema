@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/global.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="about-us">
+            <div class="social-media">
+                <img src="../resources/icons/facebook.png">
+                <img src="../resources/icons/twitter.png">
+                <img src="../resources/icons/instagram.png">
+            </div>
+            <nav class="options">
+                <h4>TARIFAS</h4>
+                <h4>CONOCENOS</h4>
+                <h4>FORMATOS</h4>
+                <h4>MARKETING EMPRESARIAL</h4>
+            </nav>
+            <div class="login">
+                <button class="sign-in">REGISTRARSE</button>
+                <button class="log-in">INICIAR SESION</button>
+            </div>
+        </nav>
+        <nav class="shop-options">
+            <img class="logo" src="../resources/images/cinemark_logo.png" />
+            <nav class="options">
+                <h3>CARTELERA</h3>
+                <h3>TEATROS</h3>
+                <h3>SNACKBAR</h3>
+                <h3>PROMOCIONES</h3>
+            </nav>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <button class="more-information">MAS INFORMACION</button>
+    </div>
+
+    <div class="filter">
+        <div class="city-filter">
+            <h3>USTED ESTA EN:</h2>
+            <select required aria-placeholder="Value2">
+                <option value="None" hidden>None</option>
+                <option value="value2">Value 2</option>
+                <option value="value3">Value 3</option>
+            </select>
+        </div>
+        <div class="local-filter">
+            <h3>TEATROS:</h2>
+            <select required aria-placeholder="Value2">
+                <option value="None" hidden>None</option>
+                <option value="value2">Value 2</option>
+                <option value="value3">Value 3</option>
+            </select>
+        </div>
+    </div>
+
+    <h1>Cartelera</h1>
+    <div class="movie-list" id="movie-list">
+    </div>
+</body>
+<script src="../javascritp/get-api.js"></script>
+<footer>
+    <div class="about-us">
+        <h2>Sobre Cinemark</h2>
+        <h3>Quienes somos</h3>
+        <h3>Terminos y condiciones</h3>
+    </div>
+    <div class="contact-us">
+        <h2>Contactanos</h2>
+        <h3>Pqrs</h3>
+    </div>
+    <div class="maketing-empresarial">
+        <h2>Marketing empresarial</h2>
+        <h3>Servicios</h3>
+    </div>
+    <div class="downloads">
+        <h2>Descarga nuestra App</h2>
+    </div>
+    <div class="apps">
+        <img src="../resources/icons/facebook-red.png" alt="">
+        <img src="../resources/icons/twitter-red.png" alt="">
+        <img src="../resources/icons/instagram-red.png" alt="">
+    </div>
+</footer>
+</html>
